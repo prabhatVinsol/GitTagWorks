@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19011A0E23571CCD005756DB /* File1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19011A0D23571CCD005756DB /* File1.swift */; };
+		19011A1023571CF9005756DB /* File2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19011A0F23571CF9005756DB /* File2.swift */; };
 		199EF32C23560E0800177AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199EF32B23560E0800177AD2 /* AppDelegate.swift */; };
 		199EF32E23560E0800177AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199EF32D23560E0800177AD2 /* ViewController.swift */; };
 		199EF33123560E0800177AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199EF32F23560E0800177AD2 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19011A0D23571CCD005756DB /* File1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File1.swift; sourceTree = "<group>"; };
+		19011A0F23571CF9005756DB /* File2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File2.swift; sourceTree = "<group>"; };
 		199EF32823560E0800177AD2 /* GitTagWorks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTagWorks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		199EF32B23560E0800177AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		199EF32D23560E0800177AD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				199EF33223560E0900177AD2 /* Assets.xcassets */,
 				199EF33423560E0900177AD2 /* LaunchScreen.storyboard */,
 				199EF33723560E0900177AD2 /* Info.plist */,
+				19011A0D23571CCD005756DB /* File1.swift */,
+				19011A0F23571CF9005756DB /* File2.swift */,
 			);
 			path = GitTagWorks;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19011A1023571CF9005756DB /* File2.swift in Sources */,
 				199EF32E23560E0800177AD2 /* ViewController.swift in Sources */,
+				19011A0E23571CCD005756DB /* File1.swift in Sources */,
 				199EF32C23560E0800177AD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
